@@ -27,3 +27,26 @@ print(z)
 o/p=s1
 2
 3.0
+a=10
+type(a)
+o/p=<class 'int'>
+str="python"
+type(str)
+o/p=<class 'str'>
+value=(10.90)
+type(value)
+o/p=<class 'float'>
+comp=complex(2,8)
+print(comp)
+(2+8j)
+type(comp)
+o/p=<class 'complex'>
+z=-1.01
+type(z)
+o/p=<class 'float'>
+x=35e3
+type(x)
+o/p=<class 'float'>
+z=-5j
+type(z)
+o/p=<class 'complex'>
