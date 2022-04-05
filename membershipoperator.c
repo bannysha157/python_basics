@@ -1,5 +1,6 @@
-
-
+membership operators:   membership operators are used to find given element/value exists in given sequence or collection
+members operators return Boolean values(True/False)
+  
 x=["apple","banana"]
 print("banana" in x) #returns True because a sequence with the value "banana" is in the list
 
