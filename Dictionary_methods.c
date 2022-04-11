@@ -19,34 +19,10 @@ print("dt is dt",dt)
      
 #o/p=dt is dt {1: 'banny', 2: 'bannysha'}
 dt[3]=4
-     
 print("d is ",d)
-     
 #o/p=d is  {1: 'banny', 2: 'bannysha'}
 print("dt is", dt)
-     
-#o/p=dt is {1: 'banny', 2: 'bannysha', 3: 4}
-
-3)fromkeys(seq,[v]):
-2)copy()
-d={1:"banny",2:"bannysha"}
-
-dt=d.copy()
-
-print("d is" ,d)
-
-#o/p=d is {1: 'banny', 2: 'bannysha'}
-print("dt is dt",dt)
-
-#o/p=dt is dt {1: 'banny', 2: 'bannysha'}
-dt[3]=4
-
-print("d is ",d)
-
-#o/p=d is  {1: 'banny', 2: 'bannysha'}
-print("dt is", dt)
-
-#o/p=dt is {1: 'banny', 2: 'bannysha', 3: 4}
+#o/p=dt is {1: 'banny', 2: 'bannysha', 3: 4
 
 3)fromkeys(seq,[v]):
 
@@ -55,14 +31,9 @@ print("x is",x)
 #o/p=x is {1: None, 2: None}
 print("d is",d)
 #o/p=d is {1: 'banny', 2: 'bannysha'}
-
-
 d={1:"one",2:"two",3:"three"}
-
 x=dict.fromkeys(d)
-
 print(x)
-
 #o/p={1: None, 2: None, 3: None}
 
 4)get(key[,d]):
@@ -121,8 +92,6 @@ print(d)
 
 
 11)value()
-	d={'A':'Ant','B':'Bat'}
-
+d={'A':'Ant','B':'Bat'}
 d.values()
-
 #o/p=dict_values(['Ant', 'Bat'])
