@@ -1,6 +1,6 @@
 #for loops
 '''
-for i in ["c","perl","python"]:
+for i in ["c","dotnet","python"]:
     print(i)
     '''
     '''
