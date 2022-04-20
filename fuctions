@@ -1,0 +1,60 @@
+#Functions
+  in python a funtion is defined using  def keyword
+
+#General classification
+def my_function():
+print("never give up")
+my_function()
+#o/p=never give up
+
+
+'''#Extra functions in python
+1)Default Arguments:
+
+def requiredArgs(a,b,c):
+    print("a=",a,"b=",b,"c=",c)
+    return
+requiredArgs(10,20,30,40)
+#o/p=TypeError: requiredArgs() takes 3 positional arguments but 4 were given
+
+
+def defaultArgs(a,b,c=10):
+    print("a= ",a,"b= ",b,"c= ",c)
+    return
+defaultArgs(10,20)
+#o/p=a=  10 b=  20 c=  10
+defaultArgs("banny","bunny")
+#o/p=a=  banny b=  bunny c=  10
+defaultArgs(10,20,30)
+#o/p=a=  10 b=  20 c=  30
+
+2)Required Arguments:
+example1:
+def requiredArgs(a,b,c):
+    print("a=",a,"b=",b,"c=",c)
+    return
+requiredArgs(10,20)
+#o/p=TypeError: requiredArgs() missing 1 required positional argument: 'c'
+
+example2:
+def requiredArgs(a,b,c):
+    print("a=",a,"b=",b,"c=",c)
+    return
+requiredArgs(10,20,30,40)
+#o/p=TypeError: requiredArgs() takes 3 positional arguments but 4 were given
+
+
+example3:
+def requiredargs(a,b,c):
+    print("a=",a,"b=",b,"c=",c)
+    return
+requiredArgs(10,20,30)
+#o/p a= 10 b= 20 c= 30
+requiredArgs("java","python","dotnet")
+#o/p a= java b= python c= dotnet
+
+
+
+
+
+
